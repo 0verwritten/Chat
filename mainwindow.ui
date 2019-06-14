@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>580</width>
+    <height>507</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>580</width>
+    <height>507</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Messenger</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	background-color:#FFF;
+}
+QLineEdit {
+	border: 1px solid #B1B1B1;
+	border-radius:8px;
+	background-color: #F0F0F0;
+	color: #6F6F6F;
+	font-family: &quot;Helvetica&quot;;
+	font-size: 16px;
+	padding:5px;
+}
+QPushButton{
+	border: 1px solid #DADADA;
+	border-radius: 8px;
+	background-color: #488E46;
+	color: #FFF;
+	font-family: &quot;Helvetica&quot;;
+	font-size: 16px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>293</y>
+      <width>178</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>195</x>
+      <y>134</y>
+      <width>191</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Your ip is 255.255.255.255</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>171</y>
+      <width>178</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Enter your username</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>232</y>
+      <width>178</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Enter your friend ip</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
